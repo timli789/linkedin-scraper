@@ -1,0 +1,7 @@
+playwright
+psycopg2-binary
+python-dotenv
+numpy
+scipy
+noise
+matplotlib
