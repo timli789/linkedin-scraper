@@ -7,6 +7,9 @@ from pathlib import Path
 
 import psycopg2
 from psycopg2.extras import execute_values
+from dotenv import load_dotenv
+
+load_dotenv()
 
 sys.path.insert(0, str(Path(__file__).parent / 'OxyMouse'))
 from oxymouse.oxymouse import OxyMouse
